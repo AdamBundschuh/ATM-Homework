@@ -24,7 +24,7 @@ public class SumAssignment {
         int highNum = input.nextInt();
 
         while (lowNum > highNum) {
-                System.out.println("Can you read?! Lets try this again...");
+                System.out.println("Can you read?! " + lowNum + " is not lower than " + highNum + ".");
                 System.out.println("Give me a lower number:");
                 lowNum = input.nextInt();
                 System.out.println("Give me a higher number:");
